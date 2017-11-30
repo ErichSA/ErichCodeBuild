@@ -1,7 +1,7 @@
 on: 0.1
 environment_variables:
     plaintext:
-        S3_BUCKET: "arn:aws:s3:::real-webapp"
+        S3_BUCKET: "real-webapp"
         BUILD_ENV: "prod"
 phases:
     install:
